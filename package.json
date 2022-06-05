@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "deploy":  "gh-pages -d dist",
     "start": "next start"
   },
   "dependencies": {
@@ -15,5 +16,8 @@
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7",
     "typewriter-effect": "^2.18.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
