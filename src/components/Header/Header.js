@@ -1,34 +1,26 @@
-import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, SocialIcons, Ahole } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
  
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
+        <Ahole href="#projects">Projects</Ahole>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
+      <Ahole href="#tech">Technologies</Ahole>
       </li>        
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
+      <Ahole href="#about">About</Ahole>
       </li>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://github.com/schirmerp?tab=repositories">
+        <SocialIcons href="https://github.com/schirmerp?tab=repositories" target="_blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/patrick-schirmer-profile/">
+        <SocialIcons href="https://www.linkedin.com/in/patrick-schirmer-profile/" target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
       </Div3>

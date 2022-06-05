@@ -18,7 +18,7 @@ export const LeftSection = styled.div`
 export const Img = styled.img`
   position: fixed;
   width: 25%;
-  height: 75%;
+  height: 55%;
   top: 19%;
   right: 77%;
   opacity: 0.5;
@@ -27,7 +27,7 @@ export const Img = styled.img`
 export const Imge = styled.img`
   position: fixed;
   width: 25%;
-  height: 75%;
+  height: 55%;
   top: 19%;
   right: 5%;
   border-radius: 50%;

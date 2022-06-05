@@ -17,7 +17,7 @@ const Hero = (props) => (
           Hello my name is Patrick, I am...  <br />
           <Typewriter
             options={{
-              strings: ['An aspiring web developer and software engineer', 'A graduate of Per Scholas', 'An AWS Certified Cloud Practitioner', 'The Father of 2 wonderful children', 'Someone who gets things DONE!', 'Passionate and Driven. Focuesd and Ready!'],
+              strings: ['An aspiring web developer and software engineer', 'A graduate of Per Scholas', 'An AWS Certified Cloud Practitioner', 'The Father of 2 wonderful children', 'Per Scholas Core Values Award Recipient'],
               autoStart: true,
               loop: true,
             }}
@@ -26,7 +26,7 @@ const Hero = (props) => (
         <SectionText>
         AWS Certified, Per Scholas graduate and Proud member of The Odin Project Alumni. Professionally trained with 10 years of management experience. 
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button><a href="#about">Learn More</a></Button>
       </LeftSection>
     </Section>
   </>

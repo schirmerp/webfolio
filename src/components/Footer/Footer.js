@@ -24,10 +24,10 @@ const Footer = () => {
           
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/schirmerp?tab=repositories">
+          <SocialIcons href="https://github.com/schirmerp?tab=repositories" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/patrick-schirmer-profile/">
+          <SocialIcons href="https://www.linkedin.com/in/patrick-schirmer-profile/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>

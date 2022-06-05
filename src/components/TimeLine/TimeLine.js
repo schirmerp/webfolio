@@ -69,7 +69,7 @@ const Timeline = () => {
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}
-                onClick={(e) => handleClick(e, index)}>
+                >
                 <CarouselItemTitle>
                   {`${item.year}`}
                   <CarouselItemImg
@@ -120,7 +120,7 @@ const Timeline = () => {
               key={index}
               index={index}
               active={activeItem}
-              onClick={(e) => handleClick(e, index)}
+              
               type="button">
               <CarouselButtonDot active={activeItem} />
             </CarouselButton>
