@@ -38,7 +38,7 @@ export const projects = [
     {
         title: 'Library App',
         description: "A not at all helpful web app used to keep track of your personal library. Check of books you have already read. Take control of your home book situation, even if youe didnt know you needed to do that!",
-          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/5.png',
+          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/Library.png',
           tags: ['JavaScript', 'HTML', 'CSS', 'API'],
         source: 'https://schirmerp.github.io/Library/',
         visit: 'https://github.com/schirmerp/Library',
@@ -47,7 +47,7 @@ export const projects = [
       {
         title: 'To Do List Web App',
         description: "This was a web app written in JavaScript. It is a todo list with the extra abilily to add priority to each event.",
-          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/5.png',
+          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/todo.png',
           tags: ['JavaScript', 'HTML', 'CSS'],
         source: 'https://schirmerp.github.io/todo-list/',
         visit: 'https://github.com/schirmerp/todo-list',
@@ -56,7 +56,7 @@ export const projects = [
       {
         title: 'Tic Tac Toe Game',
         description: "Simple Tic Tac Toe game written in JavaScript",
-          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/5.png',
+          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/tictoe.png',
           tags: ['JavaScript', 'HTML', 'CSS'],
         source: 'https://schirmerp.github.io/tictactoe/',
         visit: 'https://github.com/schirmerp/tictactoe',
@@ -65,7 +65,7 @@ export const projects = [
       {
         title: 'Rock Paper Scissors Game',
         description: "Rock Paper Scissors Game written in JavaScript HTML and CSS",
-          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/5.png',
+          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/rps.png',
           tags: ['JavaScript', 'HTML', 'CSS'],
         source: 'https://schirmerp.github.io/RPSgame/',
         visit: 'https://github.com/schirmerp/RPSgame',
@@ -74,7 +74,7 @@ export const projects = [
       {
         title: 'Calculator App',
         description: "Everyone has a first. Heres mine. A super cool calculator with spinning squares for those who like to look at spinning squares while calculating!",
-          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/5.png',
+          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/calc.png',
           tags: ['JavaScript', 'HTML', 'CSS'],
         source: 'https://schirmerp.github.io/Calculator/',
         visit: 'https://github.com/schirmerp/Calculator',
@@ -83,7 +83,7 @@ export const projects = [
       {
         title: 'Curriculum Vitae, Better known as a Resume... App',
         description: "A online Resume/Curriculum vitae builder. ",
-          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/5.png',
+          image: 'https://raw.githubusercontent.com/schirmerp/webfolio/main/public/images/cv.png',
           tags: ['React', 'HTML', 'CSS'],
         source: 'https://schirmerp.github.io/cv/',
         visit: 'https://github.com/schirmerp/cv',
